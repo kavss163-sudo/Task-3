@@ -17,7 +17,7 @@ Steps I Followed:
 
 3. Feature & Target Selection:
 
-    Defined features (X) by dropping the price column
+    Defined features (X) by dropping the price column, 
     Set price as the target variable (y)
 
 4. Data Splitting:
@@ -30,17 +30,16 @@ Steps I Followed:
 
 6. Model Evaluation:
 
-    Calculated evaluation metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), R² Score
+    Calculated evaluation metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), R² Score, 
     Plotted Actual vs Predicted prices using a line graph
 
 7. Feature Importance:
    
-     Displayed model coefficients to show how each feature affects the predicted price
-
+     Displayed model coefficients to show how each feature affects the predicted price, 
+     Visualized feature importance using a bar graph
 
 Libraries Used:
 pandas, numpy, matplotlib,
 sklearn.model_selection, sklearn.linear_model, sklearn.metrics
 
-Visualized feature importance using a bar graph
 
